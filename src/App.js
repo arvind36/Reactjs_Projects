@@ -1,6 +1,7 @@
 import "./App.css";
 import Accordion from "./components/accordion";
 import ImageSlider from "./components/image-slider";
+import LoadMoreData from "./components/load-more-data";
 import QRGenerator from "./components/qr-code-generator";
 import RandomColor from "./components/random-color";
 import StarRating from "./components/star-rating";
@@ -21,7 +22,8 @@ function App() {
         limit={"10"}
       /> */}
       {/* qr code generator */}
-      <QRGenerator />
+      {/* <QRGenerator /> */}
+      <LoadMoreData />
     </div>
   );
 }
